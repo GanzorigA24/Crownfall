@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 459741758}
   - component: {fileID: 459741761}
   - component: {fileID: 459741762}
+  - component: {fileID: 459741763}
   m_Layer: 0
   m_Name: PlayerSwordsman
   m_TagString: Untagged
@@ -433,8 +434,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c03b30a0b6e3b024da93f019ef013c31, type: 3}
+  m_Color: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -491,6 +492,28 @@ MonoBehaviour:
   attackRange: 1
   damage: 10
   attackCooldown: 1
+--- !u!95 &459741763
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459741757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 61e9b17f65dca684e8b50619893a307f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1833,7 @@ MonoBehaviour:
   team: 1
   moveSpeed: 2
   attackRange: 1
-  damage: 100
+  damage: 10
   attackCooldown: 1
 --- !u!1 &1486697069
 GameObject:
