@@ -11,6 +11,12 @@ public class UnitCombat : MonoBehaviour
 
     private UnitHealth targetUnit;
     private float attackTimer;
+    private Animator animator;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -41,6 +47,11 @@ public class UnitCombat : MonoBehaviour
         }
         else if (attackTimer <= 0f)
         {
+            if (animator != null)
+            {
+                animator.SetTrigger("Attack");
+            }
+
             targetUnit.TakeDamage(damage);
             attackTimer = attackCooldown;
         }

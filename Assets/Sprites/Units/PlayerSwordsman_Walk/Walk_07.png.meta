@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 94c16a04490d23443865e746d5801558
+guid: fa00e81b3efb68c4e96235db3297e103
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5695823929769056846
-    second: Walk_01_0
+      213: 1685589978077755936
+    second: Walk_07_0
+  - first:
+      213: 721638074048755457
+    second: Walk_07_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 290
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,23 +118,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_01_0
+      name: Walk_07_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 272
-        height: 409
+        y: 19
+        width: 271
+        height: 385
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4add05bfa1ab0f40800000000000000
-      internalID: 5695823929769056846
+      spriteID: 02a7848872b646710800000000000000
+      internalID: 1685589978077755936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_07_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107b2144106c30a00800000000000000
+      internalID: 721638074048755457
       vertices: []
       indices: 
       edges: []
@@ -150,7 +175,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walk_01_0: 5695823929769056846
+      Walk_07_0: 1685589978077755936
+      Walk_07_1: 721638074048755457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
