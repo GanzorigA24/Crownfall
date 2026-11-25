@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: c03b30a0b6e3b024da93f019ef013c31
+guid: fc84d376c111ace45a4666923f70c869
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4184727409499634281
-    second: PlayerSwordsman_0
-  - first:
-      213: -5950617500987687806
-    second: PlayerSwordsman_1
-  - first:
-      213: 8889095727322780894
-    second: PlayerSwordsman_2
-  - first:
-      213: -4248774457841593143
-    second: PlayerSwordsman_3
-  - first:
-      213: 8770857418294042189
-    second: PlayerSwordsman_4
-  - first:
-      213: -8730832776457738242
-    second: PlayerSwordsman_5
-  - first:
-      213: -6697604518075445718
-    second: PlayerSwordsman_6
-  - first:
-      213: 4312014960643527126
-    second: PlayerSwordsman_7
+      213: 5695823929769056846
+    second: Walk_01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerSwordsman_0
+      name: Walk_01_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 15
-        width: 1243
-        height: 1171
+        x: 0
+        y: 1
+        width: 272
+        height: 409
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,162 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7950feab79cdce5c0800000000000000
-      internalID: -4184727409499634281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_1
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 374
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28cf76b19e82b6da0800000000000000
-      internalID: -5950617500987687806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_2
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 341
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed45481b7796c5b70800000000000000
-      internalID: 8889095727322780894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_3
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 347
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c4599d34225905c0800000000000000
-      internalID: -4248774457841593143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_4
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 315
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4e14091a5858b970800000000000000
-      internalID: 8770857418294042189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_5
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 323
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef726e509d9d5d680800000000000000
-      internalID: -8730832776457738242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_6
-      rect:
-        serializedVersion: 2
-        x: 1094
-        y: 256
-        width: 7
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2ecf0e1d245d03a0800000000000000
-      internalID: -6697604518075445718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwordsman_7
-      rect:
-        serializedVersion: 2
-        x: 1096
-        y: 220
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d1d35bb2ca57db30800000000000000
-      internalID: 4312014960643527126
+      spriteID: e4add05bfa1ab0f40800000000000000
+      internalID: 5695823929769056846
       vertices: []
       indices: 
       edges: []
@@ -325,14 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerSwordsman_0: -4184727409499634281
-      PlayerSwordsman_1: -5950617500987687806
-      PlayerSwordsman_2: 8889095727322780894
-      PlayerSwordsman_3: -4248774457841593143
-      PlayerSwordsman_4: 8770857418294042189
-      PlayerSwordsman_5: -8730832776457738242
-      PlayerSwordsman_6: -6697604518075445718
-      PlayerSwordsman_7: 4312014960643527126
+      Walk_01_0: 5695823929769056846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
